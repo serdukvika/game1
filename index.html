@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="wrap">
+    <div class="banner container-fluid">
+       
+                   
+
+            <div class="row drop col-xs-6 fixed-top">
+                <div class="col-md-6 drop_field">
+                    <h2 class = 'message'>Drag your letter here:</h2>
+                </div>
+            </div>
+            
+            <div class="themas_to_choose float-right box ">
+              
+              <div class="radio">
+                  <input type="radio" id="auto" value="Auto" name="theme" >
+                  <label for="auto">Auto</label>
+              </div>
+              
+              <div class="radio">
+                  <input type="radio" id="city" value="City" name="theme">
+                  <label for="city">City</label>
+              </div>
+
+              <div class="radio">
+                  <input type="radio" id="character" value="Character" name="theme">
+                  <label for="character">Character</label>
+              </div>
+
+              <div class="radio">
+                  <input type="radio" id="family" value="Family" name="theme">
+                  <label for="family">Family</label>
+              </div>
+          </div>
+        </div>
+        <div class="text themas_to_choose float-right text" >
+          <h6 class="lead ">* - Все Ваши очки сгорели</h6>
+         <h6 class="lead">** - Открыть любую букву</h6>
+         <h6 class="lead">*** - Переход хода</h6>
+          <h1 id="point" class="display-4 ">0</h1> 
+         <input type="button" value="spin"  id='spin' class="btn btn-secondary butt" />
+         </div>
+<div class="row">
+  <div class="img1">
+    <img src="images/Germiona.png" alt="" width="190px">
+  </div>
+  <div class="spin">
+    <div class="col-md-6 canv">
+      <canvas id="canvas" width="500" height="500" class="{p}{l}-{5}"></canvas>
+  </div>
+ 
+  </div>
+  <div class="img2">
+    <img src="images/Potter.png" alt="" width="200px">
+  </div>
+  <div class="img3">
+    <img src="images/yakubovich.png" alt="" width="400px">
+  </div>
+</div>
+
+
+
+
+        <div class="keyboard_block container-fluid fixed-bottom word">
+                <div class="keyboard"></div>
+        </div>
+
+    </div>
+    
+
+
+  <script src="script.js"></script>
+</body>
+</html>

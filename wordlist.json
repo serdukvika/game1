@@ -1,0 +1,30 @@
+{
+  "Auto":{
+      "accumulator":"аккумулятор",
+      "armrest":"подлокотник",
+      "brakes":"тормоза",
+      "chassis":"шасси",
+      "clutch":"сцепление"
+  },
+  "City": {
+      "library":"библиотека",
+      "hospital":"больница", 
+      "gallery":"галлерея",
+      "stall":"киоск",  
+      "mosque":"мечеть"	
+  },
+  "Character":{
+      "curious":"любопытный",
+      "obedient":"послушный",
+      "determined":"настойчивый",
+      "caring":"заботливый",
+      "independent":"независимый"
+  },
+  "Family": {
+      "stepfather":"отчим",
+      "stepmother":"мачеха",
+      "ex-wife":"бывшая жена",
+      "husband-to-be":"будущий муж",
+      "godmother":"крёстная"
+  }
+}
